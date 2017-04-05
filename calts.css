@@ -1,0 +1,150 @@
+nav {
+	background-color:rgba(0, 0, 0, 0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-left: 25%;
+	z-index:10; 
+	width:100%;
+	
+
+	
+
+}
+a { color:white; } 
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+font-family: Sans-serif;
+border-radius: 5px;
+text-align: center;
+
+}
+
+nav li{
+
+	display: inline;
+	font-size: 25px;
+	color:white;
+	padding: 10px;
+	text-align: center;
+	 text-shadow: 2px 2px 2px #000000;
+}
+.nav  a:hover:not(.active) {
+	background-color: #178a94;
+}
+.active {
+    background-color: #4CAF50;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li {
+    float: left;
+}
+html { 
+  background: url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 90%;
+  z-index: 99999;
+}
+.header {
+	margin-top:300px;
+	color:#FFFFFF;
+	text-align: center;
+	font-size: 30px;
+	font-family: Sans-serif;
+
+}
+.button1 {
+	background-color:#4CAF50;
+	position: center;
+	margin-top:400px;
+	margin-left:850px;
+	color:white;
+	text-align: center;
+	font-size:30px;
+	border-radius: 5px;
+	padding :10px;
+	width:200px;
+	border:none;
+	transition: all 0.5s;
+  cursor: pointer;
+  list-style-type: none;
+	
+}
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+h3 {
+	background-color:white;
+	width:100%;
+	padding-top: 50px;
+	height:500px;
+	margin:0;
+	margin-top: 20px;
+
+
+}
+.words {
+font-family: sans-serif;
+	font-size:20px;
+	float:left;
+	padding-right:20%;
+	padding-left: 20%;
+	text-align: center;
+
+}
+body {
+	margin:0;
+}
+footer{
+	background-color: #4CAF50;
+	height:100%;
+	color:white;
+	font-family: sans-serif;
+	text-align: center;
+	padding-top: 100px;
+	float:left;
+	width:100%;
+
+
+}
+.footernotes {
+	margin-left:25%;
+}
+footer .location, .hours, .contact {
+	
+	float:left;
+	width:300px;
+	margin:10px;
+}

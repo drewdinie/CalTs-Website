@@ -1,3 +1,4 @@
+/* #af4c4c*/
 nav {
 	background-color:rgba(0, 0, 0, 0.1);
 	position: fixed;
@@ -30,12 +31,12 @@ nav li{
 	padding: 10px;
 	text-align: center;
 	 text-shadow: 2px 2px 2px #000000;
-}
+}#af4c4c
 .nav  a:hover:not(.active) {
 	background-color: #178a94;
 }
 .active {
-    background-color: #4CAF50;
+    background-color: #af4c4c;
 }
 li a {
     display: block;
@@ -53,7 +54,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 90%;
+  
   z-index: 99999;
 }
 .header {
@@ -62,23 +63,31 @@ html {
 	text-align: center;
 	font-size: 30px;
 	font-family: Sans-serif;
+	text-shadow: 2px 2px 2px #000000;
 
 }
+.buttonclass {
+	width:100%;
+	display:inline-block;
+	text-align: center;
+}
 .button1 {
-	background-color:#4CAF50;
-	position: center;
+	background-color:#af4c4c;
+
+	text-shadow: 2px 2px 2px #000000;
 	margin-top:400px;
-	margin-left:850px;
+	
 	color:white;
 	text-align: center;
 	font-size:30px;
 	border-radius: 5px;
 	padding :10px;
-	width:200px;
+	width:400px;
 	border:none;
 	transition: all 0.5s;
-  cursor: pointer;
-  list-style-type: none;
+ 	 cursor: pointer;
+  	
+
 	
 }
 .button1 span {
@@ -86,6 +95,7 @@ html {
   display: inline-block;
   position: relative;
   transition: 0.5s;
+  text-align: center;
 }
 
 .button1 span:after {
@@ -109,28 +119,55 @@ h3 {
 	background-color:white;
 	width:100%;
 	padding-top: 50px;
-	height:500px;
+	height:50%;
 	margin:0;
 	margin-top: 20px;
+	float:left;
+	
+	
+	
 
 
 }
-.words {
+.words1 {
 font-family: sans-serif;
-	font-size:20px;
-	float:left;
-	padding-right:20%;
-	padding-left: 20%;
+	font-size:17px;
+	display:inline-block;
+	padding-left:10%;
 	text-align: center;
+	max-width: 20%;
+	min-width:20%;
+	
+
+}
+.words2 {
+font-family: sans-serif;
+	font-size:17px;
+	display:inline-block;
+	padding-left:10%;
+	text-align: center;
+	max-width: 20%;
+	min-width:20%;
+	
+}
+.words3 {
+font-family: sans-serif;
+	font-size:17px;
+	display:inline-block;
+	padding-left:10%;
+	text-align: center;
+max-width: 20%;
+min-width:20%;
 
 }
 body {
 	margin:0;
 }
 footer{
-	background-color: #4CAF50;
+	background-color: #af4c4c;
 	height:100%;
 	color:white;
+
 	font-family: sans-serif;
 	text-align: center;
 	padding-top: 100px;
@@ -141,10 +178,12 @@ footer{
 }
 .footernotes {
 	margin-left:25%;
+
 }
 footer .location, .hours, .contact {
 	
 	float:left;
 	width:300px;
-	margin:10px;
+	margin:5px;
+
 }

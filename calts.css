@@ -1,12 +1,14 @@
 /* #af4c4c*/
 nav {
-	background-color:rgba(0, 0, 0, 0.1);
+	
 	position: fixed;
 	top: 0;
-	left: 0;
-	padding-left: 25%;
+	text-align: center;
+	display: inline-block;
+	
 	z-index:10; 
 	width:100%;
+
 	
 
 	
@@ -19,8 +21,13 @@ margin: 0;
 padding: 0;
 font-family: Sans-serif;
 border-radius: 5px;
-text-align: center;
 
+
+
+}
+.test {
+	text-align: center;
+	display: inline-block;
 }
 
 nav li{
@@ -28,7 +35,7 @@ nav li{
 	display: inline;
 	font-size: 25px;
 	color:white;
-	padding: 10px;
+	
 	text-align: center;
 	 text-shadow: 2px 2px 2px #000000;
 }#af4c4c
@@ -44,13 +51,15 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    background-color:rgba(0, 0, 0, 0.1);
+    
 }
 li {
     float: left;
 }
 
 .header {
-	margin-top:300px;
+	padding-top:300px;
 	color:#FFFFFF;
 	text-align: center;
 	font-size: 30px;
@@ -67,7 +76,8 @@ li {
 	background-color:#af4c4c;
 
 	text-shadow: 2px 2px 2px #000000;
-	margin-top:400px;
+	margin-top:10%;
+	margin-bottom: 10%;
 	
 	color:white;
 	text-align: center;
@@ -169,7 +179,8 @@ footer{
 
 }
 .footernotes {
-	margin-left:25%;
+	text-align: center;
+	display: inline-block;
 
 }
 footer .location, .hours, .contact {
